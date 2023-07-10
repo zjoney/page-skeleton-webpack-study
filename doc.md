@@ -2,7 +2,7 @@
 
 ## 1.初始化项目
 
-```
+```js
 $ mkdir skeletons
 $ cd skeletons
 $ npm init -y
@@ -15,7 +15,7 @@ $ cnpm i puppeteer -D
 
 ### 2.1 webpack.config.js
 
-```
+```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {resolve} = require('path');
 module.exports = {
