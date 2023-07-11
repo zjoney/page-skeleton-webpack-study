@@ -55,7 +55,7 @@ module.exports = {
 
 src\index.js
 
-```
+```js
 import React from 'react';
 import ReactDOM from 'react-dom';
 ReactDOM.render((
@@ -70,7 +70,7 @@ ReactDOM.render((
 
 src\index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>
