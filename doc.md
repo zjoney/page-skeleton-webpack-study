@@ -90,7 +90,7 @@ src\index.html
 
 skeleton\index.js
 
-```
+```js
 const SkeletonPlugin = require('./SkeletonPlugin')
 module.exports = {
   SkeletonPlugin
@@ -101,7 +101,7 @@ module.exports = {
 
 skeleton\SkeletonPlugin.js
 
-```
+```js
 const PLUGIN_NAME = 'SkeletonPlugin';
 const defaultOptions = {
 
@@ -121,7 +121,7 @@ module.exports = SkeletonPlugin;
 
 ### 3.3 webpack.config.js
 
-```
+```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {resolve} = require('path');
 +const {SkeletonPlugin} = require('./skeleton');
