@@ -167,7 +167,7 @@ module.exports = {
 
 webpack.config.js
 
-```
+```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {resolve} = require('path');
 const {SkeletonPlugin} = require('./skeleton');
@@ -213,7 +213,7 @@ module.exports = {
 
 skeleton\SkeletonPlugin.js
 
-```
+```js
 const PLUGIN_NAME = 'SkeletonPlugin';
 +const Server = require('./Server');
 const defaultOptions = {
