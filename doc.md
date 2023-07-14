@@ -241,7 +241,7 @@ module.exports = SkeletonPlugin;
 
 skeleton\Server.js
 
-```
+```js
 const http = require('http')
 const express = require('express');
 class Server {
