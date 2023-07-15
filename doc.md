@@ -275,7 +275,7 @@ module.exports = Server;
 
 ### 5.1 webpack.config.js
 
-```
+```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {resolve} = require('path');
 const {SkeletonPlugin} = require('./skeleton');
