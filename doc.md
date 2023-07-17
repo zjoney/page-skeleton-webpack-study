@@ -356,7 +356,7 @@ module.exports = SkeletonPlugin;
 
 skeleton\Skeleton.js
 
-```
+```js
 
 let  puppeteer = require('puppeteer');
 class Skeleton {
