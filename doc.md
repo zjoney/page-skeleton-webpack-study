@@ -396,7 +396,7 @@ module.exports = Skeleton;
 
 skeleton\SkeletonPlugin.js
 
-```
+```js
 const PLUGIN_NAME = 'SkeletonPlugin';
 const Server = require('./Server');
 const Skeleton = require('./Skeleton');
