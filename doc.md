@@ -436,7 +436,7 @@ module.exports = SkeletonPlugin;
 
 skeleton\Skeleton.js
 
-```
+```js
 let  puppeteer = require('puppeteer');
 +let  {readFileSync} = require('fs');
 +let  {resolve} = require('path');
