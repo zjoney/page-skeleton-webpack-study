@@ -491,7 +491,7 @@ module.exports = Skeleton;
 
 skeleton\skeletonScript.js
 
-```
+```js
 window.Skeleton = (function () {
     const $$ = document.querySelectorAll.bind(document);
     const REMOVE_TAGS = ['title', 'meta', 'style','script'];
