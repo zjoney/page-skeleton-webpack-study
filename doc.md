@@ -512,7 +512,7 @@ window.Skeleton = (function () {
 
 skeleton\utils.js
 
-```
+```js
 function sleep(duration) {
     return new Promise((resolve) => {
       setTimeout(resolve, duration)
