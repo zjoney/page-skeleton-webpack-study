@@ -529,7 +529,7 @@ module.exports = {
 
 webpack.config.js
 
-```
+```js
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const {resolve} = require('path');
 const {SkeletonPlugin} = require('./skeleton');
