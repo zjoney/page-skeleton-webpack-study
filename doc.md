@@ -582,7 +582,7 @@ module.exports = {
 
 skeleton\skeletonScript.js
 
-```
+```js
 window.Skeleton = (function () {
 +    const SMALLEST_BASE64 = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
 +    const CLASS_NAME_PREFEX = 'sk-';
