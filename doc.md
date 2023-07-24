@@ -667,7 +667,7 @@ window.Skeleton = (function () {
 
 ### 8.1 cssTree.js
 
-```
+```js
 const fs= require('fs')
 const path= require('path')
 const csstree = require('css-tree');
