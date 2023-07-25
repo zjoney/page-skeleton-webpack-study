@@ -691,7 +691,7 @@ createCode(scssFilePath);
 
 ### 8.2 input.css
 
-```
+```js
 .avatar{
     width: 750px;
 }
@@ -699,7 +699,7 @@ createCode(scssFilePath);
 
 ### 8.3 output.css
 
-```
+```js
 .avatar{width:10rem}
 ```
 
