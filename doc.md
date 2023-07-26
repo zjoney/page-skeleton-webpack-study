@@ -705,7 +705,7 @@ createCode(scssFilePath);
 
 ### 8.4 ast.json
 
-```
+```js
 {
     "type": "StyleSheet",
     "loc": null,
